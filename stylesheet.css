@@ -1,0 +1,949 @@
+@media (max-width: 1280px) {
+	.bagian2 {
+		height: 1700px;
+	}
+
+	.second-icon {
+		width: 250px;
+		padding-right: 33px;
+	}
+
+  	html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+	text-decoration: none;
+    color: inherit;
+}
+
+li {
+	list-style: none;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+/* css header*/
+
+.header-image {
+	width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position:center;
+}
+
+header {
+	height: 300px;
+	width: 100%;
+}
+
+.nav {
+	width: 100%;
+    height: 60px;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: rgb(66 251 43);
+    color: #000000;
+    z-index: 50;
+}
+
+.nav span {
+    display: none;
+    color: #07689f;
+    float: right;
+    margin: 14px 30px 14px 30px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+	
+    font-size: 45px;
+    float: left;
+    margin: 0 100px;
+    padding: 3px 20px;
+    cursor: pointer;
+}
+
+.header-left a {
+	line-height: 60px;
+	float: left;
+	padding: 0 20px;
+	cursor: pointer;
+	display: block;
+	transition: all 0.5s;
+	text-align: center;
+}
+
+.header-left a:hover {
+	background-color: rgb(101 38 105 / 50%);
+}
+
+.login {
+	line-height: 60px;
+	float: right;
+	cursor: pointer;
+	margin: 0 100px;
+	padding: 0 20px;
+	cursor: pointer;
+	display: block;
+	transition: all 0.5s;
+}
+
+.login:hover {
+	background-color: rgba(255, 126, 103, 0.5)
+}
+
+/* css header*/
+
+/* css bagian 1 */
+.bagian1 {
+    height: 1350px
+}
+
+.banner {
+    margin:30px 100px 75px 100px;
+    padding: 55px 0 55px 0;
+    background-image: url(image/anim2.jpg);
+    height: 500px;
+    /*background-image: url(https://marketplace.canva.com/EADajgs0DrU/1/0/1600w/canva-ocean-water-waves-canva-banner-rxrpEBlzRhQ.jpg);*/
+    background-size: cover;
+    /* animation */
+    position: relative;
+    animation-name: banner;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+
+@keyframes banner {
+  from {top: 0px;}
+  to {top: 25px;}
+}
+
+
+.banner h1 {
+    width: 100%;
+    text-align: center;
+    opacity: 0.7;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.h19 {
+    padding-bottom: 25px;
+}
+
+.isi {
+    margin:125px 100px 100px 100px;
+}
+
+.judul {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.judul h2 {
+    font-weight: bold;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.h20 {
+    font-family: 'Sacramento', cursive;
+    border-left: 5px solid #ff7e67;
+    border-top: 5px solid #ff7e67;
+    padding: 10px 10px 0 10px;
+    color:#07689f;
+}
+
+.h21 {
+    color: #ff7e67;
+    letter-spacing: 5px
+}
+
+.perkenalan {
+    margin-bottom: 75px;
+    display: flex;
+}
+
+.perkenalan img {
+    width: 50%;
+}
+
+.perkenalan p {
+    font-size: 20px;
+    width: 50%;
+    padding-right: 50px;
+}
+
+.catatan {
+    text-align: justify;
+    width: 50%;
+    line-height:200%;
+}
+
+.contents {
+    margin-top: 100px;
+    display: flex;
+}
+
+.content {
+    flex: 1;
+    padding-top: 35px;
+    border-top: 2px solid #07689f;
+
+    width: 33%;
+    position: relative;
+    text-align: center;
+}
+
+.content img {
+    max-height: 170px;
+}
+
+.content p {
+    width: 75%;
+    display: inline-block;
+    padding-top: 10px;
+    color: #07689f;
+    opacity: 0.7;
+}
+/* css bagian 1*/
+
+/* css bagian 2*/
+.bagian2 {
+    margin: 0 100px 100px 100px;
+    text-align: center;
+}
+
+.ilustrasi {
+    display: flex;
+}
+
+.first-icon {
+    position: relative;
+    flex: 1;
+    width: 33%;
+    padding-bottom: 35px;
+    border-bottom: 2px solid #07689f;
+    margin-bottom: 100px;
+}
+
+.first-icon img {
+    height: 150px;
+    width: 150px;
+}
+
+.first-icon h3 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.first-icon p {
+    color: #ff7e67;
+}
+
+.galeri {
+    margin-bottom: 75px;
+    height: 640px;
+}
+
+.galeri h2 {
+    padding-bottom: 50px;
+    font-family: 'Sacramento', cursive;
+    font-weight: normal;
+    font-size:250%;
+}
+
+.ig-pict {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second-icon {
+    position: relative;
+    flex: auto;
+    display: inline-block;
+    width: 25%;
+    padding-bottom: 50px;
+}
+
+.second-icon img {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.text {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.text span {
+    border-bottom: 1px solid #ff7e67;
+    color: #07689f;
+}
+
+.second-icon:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+/* css bagian 2 */
+
+/* profile */
+.profile {
+    margin: 35px 100px 75px 100px;
+    text-align: center;
+    padding: 0;
+    border: 2px solid #ff7e67;
+    border-radius: 20px;
+    background-color: #f4f6f8;
+}
+
+.profile-judul h2 {
+    width: 200px;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #a2d5f2;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size:200%;
+}
+
+.anggota {
+    display: inline-block;
+    padding: 25px 50px 25px 50px;
+}
+
+.anggota img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.nama {
+    padding-top: 10px;
+}
+
+.anggota p {
+    padding-bottom: 15px;
+}
+
+.anggota a {
+    display: inline-block;
+    color: #07689f;
+    background-color: #ff7e67;
+    padding: 5px 10px;
+    box-shadow: 0 7px #cc6452;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.anggota a:active {
+    box-shadow:none;
+    position:relative;
+    top:7px;
+}
+
+.anggota a:hover {
+    opacity: 1;
+}
+
+.fa {
+    padding-right: 5px;
+}
+/* profile */
+
+/* css footer */
+footer {
+    background-color: #07689f;
+    height:50px;
+    padding:20px 100px;
+    color:#fafafa;
+}
+
+.copyright {
+    display: block;
+    float: left;
+    padding: 15px 0 15px 0;
+}
+
+.source {
+    padding: 15px 0 15px 0;
+    float: right;
+}
+
+.source i {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.anggota {
+  		padding-bottom: 35px; 
+  	}
+
+  	.anggota p {
+  		display: inline-block;
+  		width: 100%;
+  		padding-bottom: 10px
+  	}
+
+  	.nama {
+  		width: 250px;
+  	}
+}
+
+@media (max-width: 1024px) {
+	header {
+		height: 225px;
+	}
+
+	.header-image {
+		max-height: 225px;
+	}
+
+	.nav {
+		width: 100%;
+	}
+
+  	.sticky {
+	 	position: fixed;
+	  	top: 0;
+  		width: 100%;
+	}
+
+  	.logo {
+  		margin: 3px 75px 0 75px;
+  		padding: 0 0 0 0;
+  	}
+
+  	.header-left a {
+  		padding: 0 20px;
+  	}
+
+  	.login {
+  		display: none;
+  	}
+
+  	.bagian1 {
+  		height: 1835px;
+  	}
+
+  	.banner {
+  		margin: 0 75px 0 75px;
+  		padding: -10px 0 10px 0;
+  	}
+
+  	@keyframes banner {
+  		from {top: 0;}
+  		to {top: 60px;}
+  	}
+
+  	.isi {
+  		margin: 130px 75px 100px 75px;
+  	}
+
+  	.judul {
+  		margin-top: 50px;
+  		margin-bottom: 30px
+  	}
+
+  	.perkenalan {
+  		align-items: center;
+  		justify-content: center;
+  		flex-direction: column;
+  	}
+
+  	.perkenalan img {
+  		width: 100%;
+  	}
+
+  	.perkenalan p {
+  		width:100%;
+  		line-height: 200%;
+  		padding-bottom: 40px;
+  		padding-right: inherit;
+  	}
+
+  	.catatan {
+  		line-height: 35px;
+  	}
+
+  	.contents {
+  		flex-wrap: wrap;
+  		align-content: center;
+  		justify-content: center;
+  	}
+
+  	.content {
+  		padding: 35px 15px 0 15px;
+  		width: 50%;
+  	}
+
+  	.content p {
+  		font-size: 16px;
+  		width: 80%;
+  	}
+
+  	.bagian2 {
+  		margin: 0 75px 0 75px;
+  		height: 1850px;
+  	}
+
+  	.ilustrasi {
+  		flex-wrap: wrap;
+  	}
+
+  	.first-icon {
+  		width: 100%;
+  		margin-bottom: 0;
+  	}
+
+  	.first-icon h3 {
+  		font-size: 18px;
+  	}
+
+  	.first-icon p {
+  		font-size: 16px;
+  	}
+
+  	.galeri h2 {
+  		padding: 75px 75px 50px 75px;
+  	}
+
+  	.second-icon {
+  		width: 250px;
+  		align-items: center;
+  		justify-content: center;
+  	}
+
+  	.second-icon:hover {
+  		-ms-transform: none;
+    	-webkit-transform: none;
+    	transform: none;
+  	}
+
+  	.profile {
+  		margin: 0 75px 75px 75px;
+  		height: auto;
+  	}
+
+  	.anggota {
+  		padding: 25px;
+  	}
+
+  	.anggota p {
+  		display: inline-block;
+  		width: 100%;
+  		padding-bottom: 10px
+  	}
+
+  	.nama {
+  		width: 250px;
+  	}
+
+  	footer {
+  		height: 100px;
+  		padding: 20px 30px;
+  		display: flex;
+  		flex-direction: column;
+  		align-items: center;
+  		justify-content: center;
+  	}
+}
+
+@media (max-width: 834px) {
+	.content-3 {
+  		border-style: none;
+  	}
+
+  	.bagian1 {
+  		height: 2000px;
+  	}
+
+  	.bagian2 {
+  		height: 2450px;
+  	}
+
+  	.profile {
+
+  	}
+
+  	.second-icon {
+  		width: 250px;
+  		padding-right: 5px;
+  		align-items: center;
+  		justify-content: center;
+  	}
+}
+
+@media (max-width: 768px) {
+	header {
+		height: 175px;
+	}
+
+	.header-image {
+		max-height: 175px;
+	}
+
+	.nav {
+		width: 100%;
+	}
+
+  	.sticky {
+	 	position: fixed;
+	  	top: 0;
+  		width: 100%;
+	}
+
+  	.logo {
+  		margin: 2px 50px 0 50px;
+  		padding: 0 0 0 0;
+  	}
+
+  	.login {
+  		display: none;
+  	}
+
+  	.bagian1 {
+  		height: 1915px;
+  	}
+
+  	.banner {
+  		margin: 0 50px 0 50px;
+  		padding: -10px 0 10px 0;
+  	}
+
+  	@keyframes banner {
+  		from {top: 0;}
+  		to {top: 60px;}
+  	}
+
+  	.isi {
+  		margin: 130px 50px 100px 50px;
+  	}
+
+  	.judul {
+  		margin-top: 50px;
+  		margin-bottom: 30px
+  	}
+
+  	.judul h2 {
+  		font-size: 40px;
+  	}
+
+  	.perkenalan {
+  		align-items: center;
+  		justify-content: center;
+  		flex-direction: column;
+  	}
+
+  	.perkenalan img {
+  		width: 100%;
+  	}
+
+  	.perkenalan p {
+  		width:100%;
+  		font-size: 18px;
+  		padding-bottom: 40px;
+  		padding-right: inherit;
+  	}
+
+  	.catatan {
+  		line-height: 35px;
+  	}
+
+  	.contents {
+  		flex-wrap: wrap;
+  	}
+
+  	.content {
+  		width: 100%;
+  	}
+
+  	.content-3 {
+  		border-style: none;
+  	}
+
+  	.content p {
+  		font-size: 16px;
+  		width: 80%;
+  	}
+
+  	.bagian2 {
+  		margin: 0 50px 0 50px;
+  		height: 2475px;
+  	}
+
+  	.ilustrasi {
+  		flex-wrap: wrap;
+  	}
+
+  	.first-icon {
+  		width: 100%;
+  		margin-bottom: 0;
+  	}
+
+  	.first-icon h3 {
+  		font-size: 18px;
+  	}
+
+  	.first-icon p {
+  		font-size: 16px;
+  	}
+
+  	.galeri h2 {
+  		padding: 75px 75px 50px 75px;
+  	}
+
+  	.second-icon {
+  		width: 250px;
+  	}
+
+  	.second-icon:hover {
+  		-ms-transform: none;
+    	-webkit-transform: none;
+    	transform: none;
+  	}
+
+  	.profile {
+  		margin: 0 50px 75px 50px;
+  		height: auto;
+  	}
+
+  	.anggota {
+  		padding: 20px;
+  	}
+
+  	.anggota p {
+  		display: inline-block;
+  		width: 75%;
+  		padding-bottom: 10px
+  	}
+
+  	.nama {
+  		width: 250px;
+  	}
+
+  	footer {
+  		height: 100px;
+  		padding: 20px 30px;
+  		display: flex;
+  		flex-direction: column;
+  		align-items: center;
+  		justify-content: center;
+  	}
+}
+
+@media (max-width: 480px) {
+	header {
+		height: 90px;
+	}
+
+	.header-image {
+		max-height: 90px;
+	}
+
+	.nav {
+		height: 45px;
+		width: 100%;
+	}
+
+	.header-left li {
+		display:none;
+	}
+
+  	.login {
+  		display: none;
+  	}
+
+	.nav span {
+		display:block;
+  	}
+
+  	.sticky {
+	 	position: fixed;
+	  	top: 0;
+  		width: 100%;
+	}
+
+  	.logo {
+  		font-size: 35px;
+  		margin: 2px 30px 0 30px;
+  		padding: 0 0 0 0;
+  	}
+
+  	.bagian1 {
+  		height: 2025px;
+  	}
+
+  	.banner {
+  		margin: 0 30px 0 30px;
+  		padding: -10px 0 10px 0;
+  	}
+
+  	@keyframes banner {
+  		from {top: 0;}
+  		to {top: 60px;}
+  	}
+
+  	.banner h1{
+  		letter-spacing: 7px;
+  		font-size: 30px;
+  		text-align: center;
+  		width: 100%
+  	}
+
+  	.h19 {
+  		display: flex;
+  		flex-wrap: wrap;
+  		align-items: center;
+  		justify-content: center;
+  		width: 100%;
+  	}
+
+  	.isi {
+  		margin: 130px 30px 100px 30px;
+  	}
+
+  	.judul {
+  		margin-top: 50px;
+  		margin-bottom: 30px
+  	}
+
+  	.judul h2 {
+  		font-size: 25px;
+  	}
+
+  	.h20 {
+  		border-left: 3px solid #ff7e67;
+    	border-top: 3px solid #ff7e67;
+  	}
+
+  	.perkenalan {
+  		flex-direction: column;
+  	}
+
+  	.perkenalan img {
+  		width: 100%;
+  	}
+
+  	.perkenalan p {
+  		width:100%;
+  		font-size: 16px;
+  		padding-bottom: 40px;
+  		padding-right: inherit;
+  	}
+
+  	.catatan {
+  		line-height: 25px;
+  	}
+
+  	.contents {
+  		flex-direction: column;
+  	}
+
+  	.content {
+  		width: 100%;
+  	}
+
+  	.content-2 {
+  		border-style: none;
+  	}
+
+  	.content-3 {
+  		border-style: none;
+  	}
+
+  	.content p {
+  		font-size: 14px;
+  		width: 90%;
+  	}
+
+  	.bagian2 {
+  		margin: 0 30px 0 30px;
+  		height: 4850px;
+  	}
+
+  	.ilustrasi {
+  		flex-direction: column;
+  	}
+
+  	.first-icon {
+  		width: 100%;
+  		margin-bottom: 0;
+  	}
+
+  	.icon-1 {
+  		border-style: none;
+  	}
+
+  	.icon-2 {
+  		border-style: none;
+  	}
+
+  	.first-icon h3 {
+  		font-size: 16px;
+  	}
+
+  	.first-icon p {
+  		font-size: 14px;
+  	}
+
+  	.galeri h2 {
+  		padding: 75px 0 50px 0;
+  		font-size: 25px;
+  	}
+
+  	.ig-pict {
+  		flex-direction: column;
+  	}
+
+  	.second-icon {
+  		width: 100%;
+  		align-items: center;
+  		justify-content: center;
+  	}
+
+  	.text {
+  		font-size: 16px;
+  	}
+
+  	.second-icon:hover {
+  		-ms-transform: none;
+    	-webkit-transform: none;
+    	transform: none;
+  	}
+
+  	.profile {
+  		margin: 0 30px 75px 30px;
+  		height: auto;
+  	}
+
+  	.anggota p {
+  		padding-bottom: 10px
+  	}
+
+  	footer {
+  		height: 100px;
+  		padding: 20px 30px;
+  		display: flex;
+  		flex-direction: column;
+  		align-items: center;
+  		justify-content: center;
+  	}
+}
