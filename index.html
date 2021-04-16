@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   	<meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="respon.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Sacramento&display=swap" rel="stylesheet">
+    <title>TALAS</title>
+    <link rel="icon" type="image/png" href="image/2.jpg">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<!-- header - Riki Subaktiar -->
+	<header>
+		<img src="image/2.jpg" class="header-image">
+
+	</header>
+    <div class="nav" id="navbar">
+        <div class="logo" href="#">TALAS</div>
+        <span class="fa fa-bars fa-lg" aria-hidden="true"></span>
+        <ul class="header-left">
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#galeri">Galeri</a></li>
+            <li><a href="#profile" id="about">About Us</a></li>
+        </ul>
+    </div>
+	<!-- header -->
+
+	<!-- konten bagian-->
+	<div class="bagian1">
+		<div class="banner">
+			
+		</div>
+
+		<div class="isi">
+            <div class="judul">
+                <h2 data-aos="fade-right"><span class="h20">Sayuran</span> <span class="h21">Hidroponik</span></h2>
+            </div>
+            <div class="perkenalan">
+                <p class="catatan">Hidroponik adalah salah satu metode dalam budidaya menanam dengan memanfaatkan air tanpa menggunakan media tanah dengan menekankan pada pemenuhan kebutuhan hara nutrisi bagi tanaman. Kebutuhan air pada hidroponik lebih sedikit daripada kebutuhan air pada budidaya dengan tanah. Hidroponik menggunakan air yang lebih efisien, jadi cocok diterapkan pada daerah yang memiliki pasokan air yang terbatas</p>
+                <img src="image/1.jpg">
+            </div>      
+		</div>
+	</div>
+    <!-- konten bagian 1 -->
+
+    <!-- konten bagian 2-->
+    <div class="bagian2">
+    	<div class="ilustrasi">
+    		<div class="first-icon icon-1">
+    			<img src="image/symbol5.png" alt="planting_method">
+    			<h3>Pembibitan</h3>
+    			
+    		</div>
+
+    		<div class="first-icon icon-2">
+    			<img src="image/symbol3.png" alt="planting_seasons">
+    			<h3>Pindah Tanaman</h3>
+    			
+    		</div>
+
+    		<div class="first-icon icon-3">
+    			<img src="image/symbol13.png" alt="recycle">
+    			<h3>Beri Nutrisi</h3>
+    			
+    		</div>     		
+    	</div>
+
+    	<div class="galeri" id="galeri">
+            <h2 data-aos="fade-right">Galeri Hidroponik</h2>
+            <div class="ig-pict">
+                <div class="second-icon">
+                    <img src="image/hidro.jpeg">                
+                </div>
+
+                <div class="second-icon">
+                    <img src="image/hidro2.jpg">                  
+                </div>
+
+                <div class="second-icon">
+                    <img src="image/hidro3.jpg">
+                </div>
+
+                <div class="second-icon">
+                    <img src="image/hidro4.jpg">
+                </div>
+
+                <div class="second-icon">
+                    <img src="image/melon.jpg">
+                </div>
+
+                <div class="second-icon">
+                    <img src="image/hidro5.jpg">
+                </div>
+
+                <div class="second-icon">
+                    <img src="image/hidro6.jpg">
+                </div>
+
+                <div class="second-icon">
+                    <img src="image/hidro8.jpeg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- konten bagian 2 -->
+
+    <!-- profile -->
+    <div class="profile">
+        <div class="profile-judul">
+            <h2 id="profile">Identitas Diri</h2>    
+        </div>        
+        <div class="anggota">
+            <img src="image/zulfa.jpg">
+            <div class="nama">
+                <p>Zulfatun Najah</p>
+                <a href="https://www.instagram.com/" target="_blank">
+                <i class="fa fa-instagram fa-lg"></i>
+
+                <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa fa-facebook fa-fb"></i>
+                
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- profile -->
+
+    <!-- footer -->
+    <footer>
+        <p class="copyright">Copyright &copy;<span class="year"></span> Zulfatun Najah</p>
+    </footer>
+    <!-- footer -->
+
+    <script type="text/javascript">
+        const yearEl = document.querySelector('.year');
+        const date = new Date();
+        const year = date.getFullYear();
+        yearEl.innerText = year;
+    </script>
+
+
+    <script>
+	window.onscroll = function() {myFunction()};
+
+	var navbar = document.getElementById("navbar");
+	var sticky = navbar.offsetTop;
+
+	function myFunction() {
+	  if (window.pageYOffset >= sticky) {
+	    navbar.classList.add("sticky")
+	  } else {
+	    navbar.classList.remove("sticky");
+	  }
+	}
+    </script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
